@@ -2,7 +2,7 @@
   <div :class="cssClasses">
     <input
       :name="name"
-      :id="name"
+      :id="id"
       :required="required"
       :value="value"
       :type="type"
@@ -31,6 +31,10 @@
         default: 'vueInput',
       },
       name:        {
+        type:     String,
+        required: false,
+      },
+      id:        {
         type:     String,
         required: false,
       },
