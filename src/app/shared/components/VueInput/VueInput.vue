@@ -144,7 +144,7 @@
 
     input:focus ~ label,
     input.hasValue ~ label {
-      top:         -($grid-unit * 2.5);
+      top:         -($space-unit * 2.5);
       font-size:   $input-placeholder-active-font-size;
       font-weight: $input-placeholder-active-font-weight;
       color:       $input-placeholder-active-font-color;

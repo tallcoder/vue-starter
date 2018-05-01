@@ -267,7 +267,7 @@
           &:after {
             content: "-";
             display: inline-block;
-            margin:  0 $grid-unit;
+            margin:  0 $space-unit;
           }
         }
       }
